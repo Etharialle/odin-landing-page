@@ -7,9 +7,11 @@ body {
     height: 100svh;
     display: flex;
     flex-direction: column;
+
 }
 body > * {
     flex: 1;
+    padding: 0px 10px;
 
 }
 body > div:nth-last-child(1) {
@@ -114,11 +116,12 @@ button {
     color: #F9FAF8;
     border: none;
     border-radius: 8px;
-    height: 32px;
-    width: 96px;
+    height: 48px;
+    width: 15ch;
     font-size: 14px;
     font-weight: 600;
     cursor: pointer;
+    padding: 0px 8px;
 }
 .button-border {
     border: #F9FAF8 solid 2px;
@@ -135,4 +138,16 @@ button {
     flex-basis: 1;
     justify-content: center;
     align-items: center;
+}
+img {
+    border-radius: 15px;
+}
+
+.cards > img {
+    width: 128px;
+    border: #3B82F6 solid 2px;
+}
+.logo-text {
+    font-family: "Brush Script MT";
+    font-size: 36px;
 }
