@@ -148,6 +148,6 @@ img {
     border: #3B82F6 solid 2px;
 }
 .logo-text {
-    font-family: "Brush Script MT";
+    font-family: "Brush Script MT", fantasy, comic-sans;
     font-size: 36px;
 }
